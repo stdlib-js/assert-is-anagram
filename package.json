@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-anagram",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Test if a value is an anagram.",
   "license": "Apache-2.0",
   "author": {
