@@ -1,0 +1,4 @@
+// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import t from"https://cdn.jsdelivr.net/gh/stdlib-js/string-lowercase@esm/index.mjs";import s from"https://cdn.jsdelivr.net/gh/stdlib-js/string-replace@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string@esm/index.mjs";import i from"https://cdn.jsdelivr.net/gh/stdlib-js/string-format@esm/index.mjs";var e=t,n=s,m=r.isPrimitive,o=i,d=/[^a-z0-9]/g;function l(t,s){return t<s?-1:t===s?0:1}var a=function(t,s){if(!m(t))throw new TypeError(o("invalid argument. First argument must be a string. Value: `%s`.",t));return!!m(s)&&(t=e(t),t=n(t,d,""),s=e(s),s=n(s,d,""),t.length===s.length&&(t=t.split("").sort(l).join(""))===(s=s.split("").sort(l).join("")))};export{a as default};
+//# sourceMappingURL=index.mjs.map
