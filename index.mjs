@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import t from"https://cdn.jsdelivr.net/gh/stdlib-js/string-lowercase@esm/index.mjs";import s from"https://cdn.jsdelivr.net/gh/stdlib-js/string-replace@esm/index.mjs";import{isPrimitive as r}from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@esm/index.mjs";var i=/[^a-z0-9]/g;function n(t,s){return t<s?-1:t===s?0:1}function o(o,d){if(!r(o))throw new TypeError(e("0253R",o));return!!r(d)&&(o=t(o),o=s(o,i,""),d=t(d),d=s(d,i,""),o.length===d.length&&(o=o.split("").sort(n).join(""))===(d=d.split("").sort(n).join("")))}export{o as default};
-//# sourceMappingURL=index.mjs.map
