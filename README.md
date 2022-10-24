@@ -294,9 +294,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-anagram/main/LICENSE
 
-[anagram]: http://en.wikipedia.org/wiki/Anagram
+[anagram]: https://en.wikipedia.org/wiki/Anagram
 
-[diacritics]: http://en.wikipedia.org/wiki/Diacritic
+[diacritics]: https://en.wikipedia.org/wiki/Diacritic
 
 [standard-streams]: https://en.wikipedia.org/wiki/Standard_streams
 
