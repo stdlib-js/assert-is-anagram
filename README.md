@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isAnagram from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-anagram@esm/index.mjs';
+import isAnagram from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-anagram@v0.2.2-esm/index.mjs';
 ```
 
 #### isAnagram( str, value )
@@ -87,7 +87,7 @@ var bool = isAnagram( str, value );
 <body>
 <script type="module">
 
-import isAnagram from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-anagram@esm/index.mjs';
+import isAnagram from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-anagram@v0.2.2-esm/index.mjs';
 
 var bool = isAnagram( 'I am a weakish speller', 'William Shakespeare' );
 // returns true
